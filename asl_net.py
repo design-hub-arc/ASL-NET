@@ -160,13 +160,13 @@ if __name__ == "__main__":
                     cur_page.insertImage(image_rectangles[num_pics_on_page], filename=os.path.join(dataset_directory,images[j*batch_size + i])) # add to the new page
                     cur_page.insertTextbox(results_rectangles[num_pics_on_page], 'Image: ' + images[j*batch_size + i] + '\n' + 'Prediction: ' + chr(65 + np.argmax(predictions[i])), align=1)
                     
-                print('Image Name: ' + images[j*batch_size + i], end=' ') # for now we will just print the predictions
+                print('Image Name: ' + images[j*batch_size + i], end=' ') # print statements for quick visual that its working
                 print('Prediction: ' + chr(65 + np.argmax(predictions[i])))
                 
                 num_pics_on_page += 1 # increment images on page
-                
         
         output_pdf.save(output_pdf_path) # save pdf one dir back
+        
     else:
         dataset = dispatcher.Dataset(dataset_directory, batch_size) # handle on our dataset
 
