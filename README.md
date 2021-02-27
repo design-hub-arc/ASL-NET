@@ -8,6 +8,8 @@ Neural Network for recognizing ASL alphabet.
 
 Train a model with the asl_dataset, the batch size and where you would like the model stored.
 
+Dataset Link: http://www.mediafire.com/file/4nrm2dszm654j8r/asl-alphabet-resized.zip/file
+
 Note: If you are not using the asl_alphabet_resized dataset, you may need to make modifications for the network to train on your data.
 ```
 python asl_net.py /path/to/dataset_dir batch_size /path/to/model.h5
