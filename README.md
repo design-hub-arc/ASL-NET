@@ -26,6 +26,8 @@ python asl_net.py /path/to/images_dir bacth_size /path/to/model.h5 /path/to/PDF_
 
 &nbsp;
 
+**Project Setup:**
+
 ASL PROJECT SETUP INSTRUCTIONS ON Windows/Linux/Mac (Note that some basic commands may be Operating system dependent):
 THIS SETUP IS INTENDED TO SETUP THE ENVIRONMENT AND HAVE EVERYTHONG NEEDED. THIS IS NOT A TUTORIAL ON
 TRAINING OR TESTING A NETWORK
